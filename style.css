@@ -1,0 +1,118 @@
+*{
+    marge : 0;
+    Rembourrage : 0;
+    font-family : 'Roboto', sans-serif ;
+}
+
+. héros{
+    position : parente ;
+    Largeur : 100%;
+    Hauteur : 100VH;
+    Contexte : #eff4fd;
+    position : parente ;
+}
+
+Nav{
+    affichage : flex ;
+    Largeur : 84%;
+    marge : auto ;
+    Rembourrage : 20px 0;
+    align-items : centre ;
+    justify-content : espace-entre ;
+}
+
+. logo{
+    Largeur : 110px;
+    curseur : pointeur ;
+}
+
+Nav ul li {
+    affichage : bloc en ligne ;
+    style de liste : aucun ;
+    Marge : 10px 20px;
+}
+
+Nav ul li a{
+    décoration de texte : aucune ;
+    Couleur : #000;
+    font-weight : gras ;
+}
+
+Nav ul li a :hover{
+    couleur : orange ;
+}
+
+. Detel{
+    Marge de gauche : 8 %;
+    marge-haut : 10 %;
+}
+
+. Detel H1{
+    taille de la police : 50px;
+    Couleur : #212121;
+    marge-bas : 10px;
+}
+
+empan{
+    couleur : orange ;
+
+}
+
+. Detel p{
+    Couleur : #555;
+    Hauteur de ligne : 22px;
+}
+
+. Detel A{
+    Contexte : #212121;
+    Rembourrage : 10px 18px;
+    décoration de texte : aucune ;
+    font-weight : gras ;
+    Couleur : #FFF;
+    affichage : bloc en ligne ;
+    Marge : 30px 0;
+    rayon de la frontière : 5px;
+}
+. detel a :survol{
+    couleur : orange ;
+}
+
+. Images{
+    Largeur : 45%;
+    Hauteur : 80%;
+    position : absolue ;
+    bas : 0;
+    Droite : 100px;
+}
+
+. images img{
+    Hauteur : 100%;
+    position : absolue ;
+    gauche : 50 %;
+    bas : 0;
+    transform : translateX(-50%);
+    transition : 1s en bas, 1s à gauche;
+}
+
+. images :survol . forme{
+    Fond : 40px;
+}
+
+. images :survol . homme{
+    gauche : 45 %;
+}
+
+. social{
+    Marge de gauche : 8 %;
+    marge-haut : 10px;
+}
+
+. social a{
+    taille de la police : 30px;
+    Couleur : #212121;
+    marge-droite : 20px;
+}
+
+. a :survol social{
+    couleur : orange ;
+}
